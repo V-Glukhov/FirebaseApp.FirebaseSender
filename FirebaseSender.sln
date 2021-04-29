@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseService", "src\worker\FirebaseService.csproj", "{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{89946A6E-5EC3-4645-836E-29F8EBE5F008}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8757B96F-B4AA-48C9-9CA2-1553171CFD58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BL", "BL", "{B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DAL", "DAL", "{DC9EF110-DC0F-48F8-848C-B41887B33532}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseSender.BL.Contracts", "src\BL\FirebaseSender.BL.Contracts\FirebaseSender.BL.Contracts.csproj", "{BE533926-4FB1-4B38-B075-0DCBE4EA222F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseSender.BL.CommandHandlers", "src\BL\FirebaseSender.BL.CommandHandlers\FirebaseSender.BL.CommandHandlers.csproj", "{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseHttpClient", "src\BL\FirebaseHttpClient\FirebaseHttpClient.csproj", "{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE533926-4FB1-4B38-B075-0DCBE4EA222F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE533926-4FB1-4B38-B075-0DCBE4EA222F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE533926-4FB1-4B38-B075-0DCBE4EA222F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE533926-4FB1-4B38-B075-0DCBE4EA222F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{54DE98DC-F9B4-46C1-B700-C965ECDAFB2B} = {89946A6E-5EC3-4645-836E-29F8EBE5F008}
+		{B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48} = {89946A6E-5EC3-4645-836E-29F8EBE5F008}
+		{DC9EF110-DC0F-48F8-848C-B41887B33532} = {89946A6E-5EC3-4645-836E-29F8EBE5F008}
+		{BE533926-4FB1-4B38-B075-0DCBE4EA222F} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
+		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
+		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {114A5065-84AB-40DA-8736-3CB73322D719}
+	EndGlobalSection
+EndGlobal
