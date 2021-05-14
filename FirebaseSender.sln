@@ -25,6 +25,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "env", "env", "{933B34E6-F661-43CC-A61C-FAB5B318FE91}"
+	ProjectSection(SolutionItems) = preProject
+		..\env\.env = ..\env\.env
+		..\env\docker.environment.start.bat = ..\env\docker.environment.start.bat
+		..\env\docker.environment.stop.bat = ..\env\docker.environment.stop.bat
+		..\env\env.docker-compose.yml = ..\env\env.docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +66,7 @@ Global
 		{BE533926-4FB1-4B38-B075-0DCBE4EA222F} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
 		{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
 		{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261} = {B05D0FD6-A5D4-4E46-A7B4-65EBEA018F48}
+		{933B34E6-F661-43CC-A61C-FAB5B318FE91} = {8CB72725-990C-4174-8482-C2C1BEB88365}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {114A5065-84AB-40DA-8736-3CB73322D719}
