@@ -5,10 +5,10 @@ WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
-COPY ["FirebaseService/FirebaseService.csproj", "FirebaseService/"]
-RUN dotnet restore "FirebaseService/FirebaseService.csproj"
+COPY ["src/worker/FirebaseService.csproj", "src/worker/"]
+RUN dotnet restore "src/worker/FirebaseService.csproj"
 COPY . .
-WORKDIR "/src/FirebaseService"
+WORKDIR "/src/src/worker"
 RUN dotnet build "FirebaseService.csproj" -c Release -o /app/build
 
 FROM build AS publish

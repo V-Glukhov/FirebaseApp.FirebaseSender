@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseSender.BL.Contracts
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseSender.BL.CommandHandlers", "src\BL\FirebaseSender.BL.CommandHandlers\FirebaseSender.BL.CommandHandlers.csproj", "{A96A6674-CD02-456C-BAFD-A3E1CB19E1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirebaseHttpClient", "src\BL\FirebaseHttpClient\FirebaseHttpClient.csproj", "{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirebaseHttpClient", "src\BL\FirebaseHttpClient\FirebaseHttpClient.csproj", "{6FDF10CC-AED5-4DBC-8712-45E9D6B1F261}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8CB72725-990C-4174-8482-C2C1BEB88365}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
