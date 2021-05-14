@@ -1,0 +1,2 @@
+Для сборки проекта скомпилировать проект FirebaseService и собрать его docker-файл. Использовать visual-studio
+или в папке FirebaseSender запустить команду docker build  -f src/worker/Dockerfile  .
